@@ -1,5 +1,6 @@
 import { FaFacebook, FaInstagram, FaGithub } from "react-icons/fa";
 import { ArrowDown } from "lucide-react";
+import Logo from "../assets/images/logo.png"
 
 const Home = () => {
   return (
@@ -9,7 +10,9 @@ const Home = () => {
           <div className="space-y-8">
             <div>
               <h1 className="text-5xl font-bold mb-4">
-                Next-Gen <span className="text-primary">Electronics</span> for
+                Next-Gen{" "}
+                <span className="text-primary animate-pulse">Electronics</span>{" "}
+                for
                 <span className="block">Your Modern Lifestyle</span>
               </h1>
               <p className="text-gray-300">
@@ -64,9 +67,9 @@ const Home = () => {
 
           <div className="relative h-[500px]">
             <img
-              src="/public/pic/logo.png"
+              src={Logo}
               alt="Latest Electronics"
-              className="object-contain w-full h-full"
+              className="object-contain w-full h-full animate-pulse  "
             />
           </div>
         </div>
@@ -74,7 +77,7 @@ const Home = () => {
 
       <div className="flex flex-col justify-center items-center">
         <p className="text-white mb-2">Scroll down</p>
-        <ArrowDown className="w-8 h-8 text-white animate-bounce cursor-pointer" />
+        <ArrowDown className="w-8 h-8 text-white animate-bounce" />
       </div>
 
       <div className="container mx-auto px-6 py-16">

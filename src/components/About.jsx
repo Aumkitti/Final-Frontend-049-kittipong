@@ -1,3 +1,6 @@
+import about from "../assets/images/about.png"
+import join from "../assets/images/join.png"
+
 const About = () =>{
   return (
     <section id="about" className="bg-background text-white py-16">
@@ -10,14 +13,15 @@ const About = () =>{
           <div className="Leading grid md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px]">
               <img
-                src="/public/pic/about.png"
+                src={about}
                 alt="Innovation"
-                className="object-contain w-full h-full"
+                className="object-contain w-full h-full animate-pulse"
               />
             </div>
             <div className="space-y-3">
               <h3 className="text-3xl font-bold">
-                Leading the <span className="text-primary">digital</span>{" "}
+                Leading the{" "}
+                <span className="text-primary animate-pulse">digital</span>{" "}
                 revolution
               </h3>
               <p className="text-gray-300">
@@ -31,7 +35,8 @@ const About = () =>{
           <div className="join grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-3 md:order-1">
               <h3 className="text-3xl font-bold">
-                Join our tech <span className="text-primary">community</span>
+                Join our tech{" "}
+                <span className="text-primary animate-pulse">community</span>
               </h3>
               <p className="text-gray-300">
                 Be part of a growing community of tech enthusiasts. Stay updated
@@ -41,9 +46,9 @@ const About = () =>{
             </div>
             <div className="relative h-[400px] md:order-2">
               <img
-                src="/public/pic/join.png"
+                src={join}
                 alt="Community"
-                className="object-contain w-full h-full"
+                className="object-contain w-full h-full animate-pulse"
               />
             </div>
           </div>

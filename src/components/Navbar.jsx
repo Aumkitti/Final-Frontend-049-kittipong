@@ -39,10 +39,10 @@ const Navbar= () => {
   }, []);
 
   return (
-    <nav className="fixed top-0 w-full bg-secondary text-white z-50">
+    <nav className="fixed top-0 w-full bg-secondary text-primary z-50">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <a href="/" className="text-2xl font-bold italic text-accent">
+          <a href="/" className="text-2xl font-bold italic text-accent text-white">
             TechZone
           </a>
           <div className="hidden md:flex space-x-8">

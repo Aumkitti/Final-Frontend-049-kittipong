@@ -52,9 +52,8 @@ const Review = () => {
           ))}
         </div>
 
-        {/* Newsletter Section */}
         <div className="space-y-4 text-center bg-gray-800 rounded-lg py-4">
-          <h3 className="text-xl font-bold">Newsletter</h3>
+          <h3 className="text-xl font-bold">Subscribe</h3>
           <p className="text-gray-300">
             Subscribe for updates and exclusive offers
           </p>

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Aumkitti.github.io/Final-Frontend-049-kittipong/",
+  "homepage": "https://Aumkitti.github.io/Final-Frontend-049-kittipong",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

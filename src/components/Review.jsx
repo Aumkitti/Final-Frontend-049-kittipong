@@ -3,19 +3,19 @@ import { Star, User, Mail, Send } from "lucide-react";
 const Review = () => {
   const reviews = [
     {
-      name: "John Doe",
+      name: "kittipong",
       review:
         "Amazing products and excellent customer service! Will definitely buy again.",
       rating: 5,
     },
     {
-      name: "Jane Smith",
+      name: "Tossaphon",
       review:
         "The tech support team was incredibly helpful. Great experience overall!",
       rating: 5,
     },
     {
-      name: "Mike Johnson",
+      name: "Titadach",
       review: "Fast delivery and product quality exceeded my expectations.",
       rating: 4,
     },
